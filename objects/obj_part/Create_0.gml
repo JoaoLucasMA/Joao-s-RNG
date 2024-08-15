@@ -5,3 +5,6 @@ hsp = wind
 vsp = grv
 
 image_alpha = 0.5
+
+image_xscale = 4
+image_yscale = 4
