@@ -1,4 +1,4 @@
-embleList = ["fred", "carl", "pato", "ali", "bigo", "alea", "andfilho", "emyy", "lobao", "krsna", "saulo", "andv", "sarah", "beli", "verd", "vini", "levi", "joao"]
+embleList = ["fred", "carl", "pato", "ali", "bigo", "alea", "andfilho", "emyy", "lobao", "krsna", "saulo", "caio", "arthur", "andv", "sarah", "beli", "verd", "vini", "levi", "joao"]
 emblema = embleList[0]
 
 nome = -1
@@ -13,7 +13,7 @@ tudo = ini_read_real("auras", "tudo", 0)
 ini_close()
 
 num = 0
-numMax = 17
+numMax = 19
 
 //setas imagem
 c1s = -1

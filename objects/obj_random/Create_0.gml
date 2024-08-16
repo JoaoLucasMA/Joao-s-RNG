@@ -27,31 +27,37 @@ if global.num <= (1/6) * 100000
 if global.num <= (1/8) * 100000
 {class = "bigo"}
 
-if global.num <= (1/12) * 100000
+if global.num <= (1/16) * 100000
 {class = "alea"}
 
-if global.num <= (1/16) * 100000
+if global.num <= (1/32) * 100000
 {class = "andfilho"}
 
-if global.num <= (1/24) * 100000
+if global.num <= (1/48) * 100000
 {class = "emyy"}
 
-if global.num <= (1/32) * 100000
+if global.num <= (1/64) * 100000
 {class = "lobao"}
 
-if global.num <= (1/48) * 100000
+if global.num <= (1/80) * 100000
 {class = "krsna"}
 
-if global.num <= (1/64) * 100000
+if global.num <= (1/96) * 100000
 {class = "saulo"}
 
+if global.num <= (1/112) * 100000
+{class = "caio"}
+
 if global.num <= (1/128) * 100000
+{class = "arthur"}
+
+if global.num <= (1/144) * 100000
 {class = "andv"}
 
-if global.num <= (1/196) * 100000
+if global.num <= (1/256) * 100000
 {class = "sarah"}
 
-if global.num <= (1/256) * 100000
+if global.num <= (1/384) * 100000
 {class = "beli"}
 
 if global.num <= (1/512) * 100000
@@ -60,10 +66,10 @@ if global.num <= (1/512) * 100000
 if global.num <= (1/1024) * 100000
 {class = "vini"}
 
-if global.num <= (1/2048) * 100000
+if global.num <= (1/1536) * 100000
 {class = "levi"}
 
-if global.num <= (1/4096) * 100000
+if global.num <= (1/2048) * 100000
 {class = "joao"}
 
 //------------------------- func -------------------------//
@@ -98,63 +104,77 @@ if class = "ali"
 if class = "bigo"
 {
 	sprite_index = spr_bigode
-	text = "Bigode\n1 em 12!"
+	text = "Bigode\n1 em 16!"
 	tag = "norm"
 }
 
 if class = "alea"
 {
 	sprite_index = spr_alea
-	text = "\"Aleatorio\"\n1 em 16!"
+	text = "\"Aleatorio\"\n1 em 32!"
 	tag = "norm"
 }
 
 if class = "andfilho"
 {
 	sprite_index = spr_andfilho
-	text = "AndFilhoGamer\n1 em 24!"
+	text = "AndFilhoGamer\n1 em 48!"
 	tag = "norm"
 }
 
 if class = "emyy"
 {
 	sprite_index = spr_emyy
-	text = "Emyy\n1 em 32!"
+	text = "Emyy\n1 em 64!"
 	tag = "norm"
 }
 
 if class = "lobao"
 {
 	sprite_index = spr_lobao
-	text = "Lobão\n1 em 48!"
+	text = "Lobão\n1 em 80!"
 	tag = "norm"
 }
 
 if class = "krsna"
 {
 	sprite_index = spr_krsna
-	text = "Krsna\n1 em 64!"
+	text = "Krsna\n1 em 96!"
 	tag = "norm"
 }
 
 if class = "saulo"
 {
 	sprite_index = spr_saulo
-	text = "nome dboa pra não ser banido dnv\n1 em 128!"
+	text = "nome dboa pra não ser banido dnv\n1 em 112!"
+	tag = "norm"
+}
+
+if class = "caio"
+{
+	sprite_index = spr_caio
+	text = "Caio\n1 em 128!"
+	tag = "norm"
+}
+
+if class = "arthur"
+{
+	sprite_index = spr_artur
+	text = "Arthur\n1 em 99999999!" //(144)
 	tag = "norm"
 }
 
 if class = "andv"
 {
 	sprite_index = spr_andv
-	text = "Andrew\n1 em 196!"
+	text = "Andrew\n1 em 256!"
 	tag = "shine"
 }
 
 if class = "sarah"
 {
 	sprite_index = spr_sarah
-	text = "Sarah Molhango\n1 em 256!"
+	text = "Sarah Molhango\n1 em 384!"
 	tag = "shine"
 }
 
@@ -175,21 +195,21 @@ if class = "verd"
 if class = "vini"
 {
 	sprite_index = spr_vini
-	text = "vinitalro4games\n1 em 2048!"
+	text = "vinitalro4games\n1 em 1536!"
 	tag = "lend"
 }
 
 if class = "levi"
 {
 	sprite_index = spr_levi
-	text = "Levi\n1 em 4096!"
+	text = "Levi\n1 em 2048!"
 	tag = "lend"
 }
 
 if class = "joao"
 {
 	sprite_index = spr_joaofake
-	text = ". . .\n1 em 4096!"
+	text = ". . .\n1 em 2048!"
 	tag = "lend"
 }
 

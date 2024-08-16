@@ -17,6 +17,3 @@ camera_set_view_pos(cam, -(Wcam-1280)/2, camera_get_view_y(cam))
 
 if window_has_focus()
 {surface_resize(application_surface, Wwid, Whei)}
-
-if keyboard_check(vk_insert)
-{room_goto(rm_joaosroom)}

@@ -109,7 +109,7 @@ if emblema = embleList[4]
 {
 	nome = "Bigode"
 	desc = "David Juan, mas...\nele tem um bigode."
-	chan = "1 em 12"
+	chan = "1 em 16"
 	poss = ini_read_real("auras", "bigo", 0)
 	spr = spr_bigode
 	type = "norm"
@@ -118,7 +118,7 @@ if emblema = embleList[5]
 {
 	nome = "\"Aleatorio\""
 	desc = "Zi-Daniel...\nApenas."
-	chan = "1 em 16"
+	chan = "1 em 32"
 	poss = ini_read_real("auras", "alea", 0)
 	spr = spr_alea
 	type = "norm"
@@ -127,7 +127,7 @@ if emblema = embleList[6]
 {
 	nome = "AndFilhoGamer"
 	desc = "Ele é o Anderson...\nsó que GAMER!"
-	chan = "1 em 24"
+	chan = "1 em 48"
 	poss = ini_read_real("auras", "andfilho", 0)
 	spr = spr_andfilho
 	type = "norm"
@@ -136,7 +136,7 @@ if emblema = embleList[7]
 {
 	nome = "Emyy"
 	desc = "Elmino's love?\nEu acho."
-	chan = "1 em 32"
+	chan = "1 em 64"
 	poss = ini_read_real("auras", "emyy", 0)
 	spr = spr_emyy
 	type = "norm"
@@ -145,7 +145,7 @@ if emblema = embleList[8]
 {
 	nome = "Lobão"
 	desc = "Nosso FURRY favorito.\nAlê."
-	chan = "1 em 48"
+	chan = "1 em 80"
 	poss = ini_read_real("auras", "lobao", 0)
 	spr = spr_lobao
 	type = "norm"
@@ -154,7 +154,7 @@ if emblema = embleList[9]
 {
 	nome = "Krsna"
 	desc = "Criptônio Enxofre Sódio\nKr        S       Na"
-	chan = "1 em 64"
+	chan = "1 em 96"
 	poss = ini_read_real("auras", "krsna", 0)
 	spr = spr_krsna
 	type = "norm"
@@ -163,30 +163,48 @@ if emblema = embleList[10]
 {
 	nome = "nome dboa pra não\n   serbanido dnv"
 	desc = "Falam que ele foi banido...\nmas eu não me lembro."
-	chan = "1 em 128"
+	chan = "1 em 112"
 	poss = ini_read_real("auras", "saulo", 0)
 	spr = spr_saulo
 	type = "norm"
 }
 if emblema = embleList[11]
 {
+	nome = "Caio"
+	desc = "Ele é \"cabessudinho\".\nLean"
+	chan = "1 em 128"
+	poss = ini_read_real("auras", "caio", 0)
+	spr = spr_caio
+	type = "norm"
+}
+if emblema = embleList[12]
+{
+	nome = "Arthur"
+	desc = "Na verdade ele não é raro.\nFoi mal."
+	chan = "1 em 144"
+	poss = ini_read_real("auras", "arthur", 0)
+	spr = spr_artur
+	type = "norm"
+}
+if emblema = embleList[13]
+{
 	nome = "Andrew"
 	desc = "Ele é o André W.\nJuntando, Andrew."
-	chan = "1 em 196"
+	chan = "1 em 256"
 	poss = ini_read_real("auras", "andv", 0)
 	spr = spr_andv
 	type = "shine"
 }
-if emblema = embleList[12]
+if emblema = embleList[14]
 {
 	nome = "Sarah Molhango"
 	desc = "Ela é um morango.\nmolhango*"
-	chan = "1 em 256"
+	chan = "1 em 384"
 	poss = ini_read_real("auras", "sarah", 0)
 	spr = spr_sarah
 	type = "shine"
 }
-if emblema = embleList[13]
+if emblema = embleList[15]
 {
 	nome = "Belizário"
 	desc = "Filipe.\n5"
@@ -196,7 +214,7 @@ if emblema = embleList[13]
 	type = "shine"
 }
 
-if emblema = embleList[14]
+if emblema = embleList[16]
 {
 	nome = "HomiVerdi"
 	desc = "Ele é verde...\nLuffy senpai <3"
@@ -206,31 +224,31 @@ if emblema = embleList[14]
 	type = "lend"
 }
 
-if emblema = embleList[15]
+if emblema = embleList[17]
 {
 	nome = "vinitalro4games"
 	desc = "Grande ViniTalro.\n*Moon Walk*"
-	chan = "1 em 2048"
+	chan = "1 em 1536"
 	poss = ini_read_real("auras", "vini", 0)
 	spr = spr_vini
 	type = "lend"
 }
 
-if emblema = embleList[16]
+if emblema = embleList[18]
 {
 	nome = "Levi"
 	desc = "Grande fundador dos...\n\"AMIGOS NORMAIS\"!"
-	chan = "1 em 4096"
+	chan = "1 em 2048"
 	poss = ini_read_real("auras", "levi", 0)
 	spr = spr_levi
 	type = "lend"
 }
 
-if emblema = embleList[17]
+if emblema = embleList[19]
 {
 	nome = "João"
 	desc = "João...\nJoão?"
-	chan = "1 em 4096"
+	chan = "1 em 2048"
 	poss = ini_read_real("auras", "joao", 0)
 	spr = spr_joaofake
 	type = "lend"
