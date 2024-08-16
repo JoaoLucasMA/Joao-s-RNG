@@ -16,3 +16,5 @@ var text2 = "+ Direcão +\n\nJoão\n\n\n+ Programação +\n\nJoão\n\n\n+ Arte e
 draw_text_leg(room_width/2, y, text2, 6, f_vcr22, fa_top, fa_middle, c_black, c_white)
 
 draw_sprite_ext(spr_gamemaker, 0, room_width/2, y + 1290, 1, 1, 0, image_blend, image_alpha)
+
+draw_text(5, 50, string(y))
