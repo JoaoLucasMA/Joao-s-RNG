@@ -16,7 +16,7 @@ if !view
 
 musicList = ["Chill Day",  "\"Bag Music\"", "A Sweet Smile", "Greetings!"]
 
-if room = rm_rngplace
+if room = rm_rngplace && rm_cofg
 {
 	nome = musicList[0]
 	var nomeF = sd_chillDay
@@ -61,7 +61,7 @@ if room = rm_loja
 	if !audio_is_playing(nomeF)
 	{audio_play_sound(nomeF, 1, infinity)}
 }
-if room = rm_cofg
+if room = rm_minijogos
 {
 	nome = musicList[3]
 	var nomeF = sd_greetings

@@ -14,6 +14,8 @@ if mouse_enter(id)
 			ini_open("data.ini")
 			ini_write_real("a", "b", 1)
 			ini_close()
+			
+			game_end()
 		}
 	}
 }

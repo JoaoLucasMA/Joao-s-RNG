@@ -6,7 +6,7 @@ if mouse_enter(id)
 	if mouse_check_button_pressed(mb_left)
 	{
 		image_xscale = 5
-		room_goto(rm_game)
+		room_goto(rm_minijogos)
 		
 		audio_play_sound(sd_press, 1, 0)
 	}

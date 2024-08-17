@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sd_o",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.567333,
+  "name":"sd_o",
+  "parent":{
+    "name":"MUSICS",
+    "path":"folders/Sons/MUSICS.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sd_o.mp3",
+  "type":0,
+  "volume":1.0,
+}

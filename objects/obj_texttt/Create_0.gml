@@ -1,5 +1,7 @@
 audio_stop_all()
 
+window_set_caption("PC")
+
 ind = 0
 spd = 0.2
 

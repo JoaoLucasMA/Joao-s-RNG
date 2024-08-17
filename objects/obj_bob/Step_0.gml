@@ -19,5 +19,3 @@ if ind < string_length(text)
 
 image_xscale = lerp(image_xscale, 4, 0.1)
 image_yscale = lerp(image_yscale, 4, 0.1)
-
-y = ystart + obj_Lcamera.yy/3

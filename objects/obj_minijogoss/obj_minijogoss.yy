@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gameButton",
+  "%Name":"obj_minijogoss",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gameButton",
+  "name":"obj_minijogoss",
   "overriddenProperties":[],
   "parent":{
     "name":"RNG PLACE",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_jogoButton",
-    "path":"sprites/spr_jogoButton/spr_jogoButton.yy",
+    "name":"spr_minegames",
+    "path":"sprites/spr_minegames/spr_minegames.yy",
   },
   "spriteMaskId":null,
   "visible":true,
