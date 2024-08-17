@@ -1,2 +1,0 @@
-var text = "Olhe,\nde baixo da mesa da pessoa que ensina,\nna sala dos que aprendem quimica...\nPela primeira vez."
-draw_text_leg(room_width/2, room_height/2 + 128, text, 0, f_vcr29, fa_middle, fa_center, c_black, c_white)

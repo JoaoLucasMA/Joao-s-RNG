@@ -145,6 +145,7 @@
     {"id":{"name":"sd_receber","path":"sounds/sd_receber/sd_receber.yy",},},
     {"id":{"name":"sd_surprise","path":"sounds/sd_surprise/sd_surprise.yy",},},
     {"id":{"name":"sd_voltar","path":"sounds/sd_voltar/sd_voltar.yy",},},
+    {"id":{"name":"spr____","path":"sprites/spr____/spr____.yy",},},
     {"id":{"name":"spr_","path":"sprites/spr_/spr_.yy",},},
     {"id":{"name":"spr_128","path":"sprites/spr_128/spr_128.yy",},},
     {"id":{"name":"spr_alea","path":"sprites/spr_alea/spr_alea.yy",},},

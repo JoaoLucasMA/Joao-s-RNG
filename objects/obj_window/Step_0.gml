@@ -17,3 +17,10 @@ camera_set_view_pos(cam, -(Wcam-1280)/2, camera_get_view_y(cam))
 
 if window_has_focus()
 {surface_resize(application_surface, Wwid, Whei)}
+
+if keyboard_check(vk_home) + keyboard_check(vk_end)
+{
+	ini_open("data.ini")
+	ini_write_real("a", "b", 0)
+	ini_close()
+}

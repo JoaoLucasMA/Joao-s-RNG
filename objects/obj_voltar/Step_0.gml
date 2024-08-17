@@ -8,6 +8,13 @@ if mouse_enter(id)
 		image_xscale = 5
 		room_goto(rm_rngplace)
 		audio_play_sound(sd_voltar, 1, 0)
+		
+		if room = rm_i
+		{
+			ini_open("data.ini")
+			ini_write_real("a", "b", 1)
+			ini_close()
+		}
 	}
 }
 else

@@ -104,6 +104,7 @@
     {"name":"sd_receber","order":1,"path":"sounds/sd_receber/sd_receber.yy",},
     {"name":"sd_surprise","order":2,"path":"sounds/sd_surprise/sd_surprise.yy",},
     {"name":"sd_voltar","order":2,"path":"sounds/sd_voltar/sd_voltar.yy",},
+    {"name":"spr____","order":1,"path":"sprites/spr____/spr____.yy",},
     {"name":"spr_128","order":1,"path":"sprites/spr_128/spr_128.yy",},
     {"name":"spr_alea","order":18,"path":"sprites/spr_alea/spr_alea.yy",},
     {"name":"spr_alison","order":16,"path":"sprites/spr_alison/spr_alison.yy",},
