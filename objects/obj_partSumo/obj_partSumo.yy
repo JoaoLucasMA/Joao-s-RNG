@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_attLog",
+  "%Name":"obj_partSumo",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_attLog",
+  "name":"obj_partSumo",
   "overriddenProperties":[],
   "parent":{
-    "name":"CONF",
-    "path":"folders/Objetos/CONF.yy",
+    "name":"CREDITOS",
+    "path":"folders/Objetos/CREDITOS.yy",
   },
   "parentObjectId":null,
   "persistent":false,

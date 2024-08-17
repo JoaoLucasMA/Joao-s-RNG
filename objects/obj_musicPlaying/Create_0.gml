@@ -14,9 +14,9 @@ ini_close()
 if !view
 {image_alpha = 0}
 
-musicList = ["Chill Day",  "BagMusic", "A Sweet Smile"]
+musicList = ["Chill Day",  "\"Bag Music\"", "A Sweet Smile", "Greetings!"]
 
-if room = rm_rngplace or room = rm_cofg
+if room = rm_rngplace
 {
 	nome = musicList[0]
 	var nomeF = sd_chillDay
@@ -24,12 +24,12 @@ if room = rm_rngplace or room = rm_cofg
 	
 	audio_pause_sound(sd_bagmusic)
 	audio_pause_sound(sd_aSweetSmile)
+	audio_pause_sound(sd_greetings)
 	
 	audio_resume_sound(nomeF)
 	
 	if !audio_is_playing(nomeF)
 	{audio_play_sound(nomeF, 1, infinity)}
-	
 }
 if room = rm_bag
 {
@@ -39,6 +39,7 @@ if room = rm_bag
 	
 	audio_pause_sound(sd_chillDay)
 	audio_pause_sound(sd_aSweetSmile)
+	audio_pause_sound(sd_greetings)
 	
 	audio_resume_sound(nomeF)
 	
@@ -53,6 +54,22 @@ if room = rm_loja
 	
 	audio_pause_sound(sd_chillDay)
 	audio_pause_sound(sd_bagmusic)
+	audio_pause_sound(sd_greetings)
+	
+	audio_resume_sound(nomeF)
+	
+	if !audio_is_playing(nomeF)
+	{audio_play_sound(nomeF, 1, infinity)}
+}
+if room = rm_cofg
+{
+	nome = musicList[3]
+	var nomeF = sd_greetings
+	image_blend = #FAFA1B
+	
+	audio_pause_sound(sd_bagmusic)
+	audio_pause_sound(sd_aSweetSmile)
+	audio_pause_sound(sd_chillDay)
 	
 	audio_resume_sound(nomeF)
 	
